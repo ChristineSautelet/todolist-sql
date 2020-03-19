@@ -3,12 +3,12 @@
 include 'connexion.php';
 
 $donnees = [
-        'name' => ucfirst($_POST['name']),
+        'nom' => $_POST['newtache'],
         'status' => 1,
         'id' => 0,];
 
 $sql = $bdd->prepare
-("INSERT INTO taches VALUES (:id, :name, :status)");
+("INSERT INTO taches VALUES (:id, :nom, :status)");
 
 $sql->execute($donnees);
 

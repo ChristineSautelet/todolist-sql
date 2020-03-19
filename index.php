@@ -44,7 +44,7 @@ $resultat2 = $bdd->query('SELECT * FROM les_status LEFT JOIN taches ON les_statu
     </div>
     <div>
         <p class="mt-5">AJOUTER UNE TÂCHE</p>
-        <form action="<?php echo "ajout.php?lid="?> method="post" class="mt-3">
+        <form action="ajout.php" method="post" class="mt-3">
             <label for="newtache">La tâche à effectuer</label></br>
             <input type="text" name="newtache" id="newtache" value="">
             <button type="submit" class="btn btn-primary" name="button">Envoyer</button>
