@@ -1,6 +1,6 @@
 <?php
 $servname = "localhost"; 
-$dbname = "sql_todolist_sql"; 
+$dbname = "todolist"; 
 $user = "christinesautelet"; 
 $pass = "user";
 

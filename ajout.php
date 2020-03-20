@@ -8,13 +8,10 @@ $donnees = [
         'id' => 0,];
 
 $sql = $bdd->prepare
-("INSERT INTO taches VALUES (:id, :nom, :status)");
+("INSERT INTO todo VALUES (:id, :nom, :status)");
 
 $sql->execute($donnees);
+header ('location: index.php');
 
-session_start();
-$_SESSION['success']=1;
-
-header('location:index.php');
 
 ?>
