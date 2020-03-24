@@ -1,0 +1,74 @@
+@import "_colors.scss";
+html{
+    background-color: $color6;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(0,123,255,1) 35%, rgba(0,212,255,1) 100%);
+}
+.container{
+    background-color: $color6;
+    max-width:400px;
+    min-width: 320px;
+}
+h2{
+    color: $color1;
+    text-shadow: 4px 3px 3px $color7;
+}
+h1,.btn{
+    color: $color7;
+    text-shadow: 4px 3px 3px $color1;
+}
+h2{
+    font-size:25px;
+}
+#haut{
+    background-color:$color10;
+    height: 55vh;
+    overflow-y: scroll;
+    scrollbar-color: $color6 $color2;
+}
+#afaire{
+    font-size: 22px;
+    font-weight: bold;
+}
+#archive{
+    color:$color4;
+}
+#bas{
+    padding-bottom:0px;
+    min-height: 15vh;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+    background-color:$color10;
+}
+#haut,#bas,#newtache, h1{
+    border: 10px ridge $color6;
+    border-radius: 8px;
+}
+.btn{
+    border-radius: 10px;
+    border:9px outset $color6;
+    background-color: $color6;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 5px 0 5px $color2; 
+  border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $color6; 
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-corner{
+    background: $color2; 
+}

@@ -1,6 +1,6 @@
 <?php
 
-include 'connexion.php';
+include '_01connexion.php';
 
 $donnees = [
         'nom' => $_POST['newtache'],
@@ -11,7 +11,7 @@ $sql = $bdd->prepare
 ("INSERT INTO todo VALUES (:id, :nom, :status)");
 
 $sql->execute($donnees);
-header ('location: index.php');
+header ('location: ../../index.php');
 
 
 ?>

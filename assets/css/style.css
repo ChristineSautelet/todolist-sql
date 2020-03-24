@@ -1,0 +1,89 @@
+html {
+  background-color: #003E80;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #020024;
+  background: linear-gradient(157deg, #020024 0%, #007bff 35%, #00d4ff 100%);
+}
+
+.container {
+  background-color: #003E80;
+  max-width: 400px;
+  min-width: 320px;
+}
+
+h2 {
+  color: black;
+  text-shadow: 4px 3px 3px white;
+}
+
+h1, .btn {
+  color: white;
+  text-shadow: 4px 3px 3px black;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+#haut {
+  background-color: #00a9ff;
+  height: 55vh;
+  overflow-y: scroll;
+  scrollbar-color: #003E80 #41C4FF;
+}
+
+#afaire {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#archive {
+  color: #265180;
+}
+
+#bas {
+  padding-bottom: 0px;
+  min-height: 15vh;
+  margin-bottom: 50px;
+  padding-bottom: 5px;
+  background-color: #00a9ff;
+}
+
+#haut, #bas, #newtache, h1 {
+  border: 10px ridge #003E80;
+  border-radius: 8px;
+}
+
+.btn {
+  border-radius: 10px;
+  border: 9px outset #003E80;
+  background-color: #003E80;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 5px 0 5px #41C4FF;
+          box-shadow: inset 5px 0 5px #41C4FF;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #003E80;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-corner {
+  background: #41C4FF;
+}
+/*# sourceMappingURL=style.css.map */

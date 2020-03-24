@@ -1,5 +1,5 @@
 <?php
-include 'connexion.php';
+include '_01connexion.php';
 
 
 if(isset($_POST['choix'])){
@@ -15,5 +15,5 @@ WHERE id = $value;");
 $sql->execute();
 }
 }
-header ('location: index.php');
+header ('Location:../../index.php');
 ?>
