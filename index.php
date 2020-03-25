@@ -37,12 +37,12 @@ include 'assets/php/_02select.php';
                 </div>
                 </form>
             </div>
-            <div id="bas" class="mt-5 pl-2">
+            <div id="bas" class="mt-4 pl-2">
                 <h2 class="mt-2">AJOUTER UNE TÂCHE</h2>
-                <form action="assets/php/_04ajout.php" method="post">
+                <form action="assets/php/_05ajout.php" method="post">
                     <label for="newtache" class="ml-2">La tâche à effectuer</label></br>
                     <div class="row">
-                        <input class="col-6 ml-3" type="text" name="newtache" id="newtache" value="">
+                        <textarea class="col-6 ml-3" type="text" name="newtache" id="newtache" value="" maxlength="200" autofocus placeholder="Entrez nouvelle tâche"></textarea>
                         <button type="submit" class="btn btn-primary col-4 ml-3" name="button">Ajouter</button>
                     </div>
                 </form>
